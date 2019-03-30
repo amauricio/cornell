@@ -16,8 +16,7 @@ CHANNEL=$3
 
 W_FOLDER=/tmp
 W_FILE='wifi-dump'
-WORDLIST='/home/dstrok3/disk/Evil/wordlists/big.txt'
-
+WORDLIST=$5
 
 echo 'Cleaning tmps...'
 rm -rf ${W_FOLDER}/${W_FILE}*
